@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6_Fórmulario</title>
+</head>
+<body>
+    <h1>Criando formulário</h1>
+    <hr>
+    <strong>Formulário Simples</strong>
+    <!--input é um campo para a entrada de dados em um formulario-->
+    <!--TYPE E ATRIBUTO QUE DEFINE O TYPO DE DE ENTRADA DE DADOS DO FORMULARIO-->
+    <!--ID é atributo que define o indentificador de únicvo para um único elemento-->
+    <!--value selecionar nome ao botão -->
+    <!--action seleciona para aonde aquelas informações devem ir-->
+    <!--label, indentificar oque aquilo é. id(etiqueta) ctrl+ shift+p+ envelopar+label, ele associa uma legenda ao imput-->
+    <!--o for é o "crachá" da tag-->
+
+    <form action="cadastro.php" method="post"> <!--post é para enviar em um negócio externo-->
+        <p><label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <P><label for="isobrenome">Sobrenome:</label> <!--etiqueta para id selecionado-->
+            <input type="text" name="nome" id="isobrenome"> </label> 
+        </p>
+        <p>sobrenome</p>
+        </P>
+            <input type="submit" value="INSCREVA-SE"> <!--submit e o botao de enviar-->
+            <hr>
+                <strong>formulario de cadrastro</strong>
+                <form action="cadastro.php" method="post"></form>
+                <p><label for="inome">nome:</label>
+                        <input type="text" name="nome" id="inome"></p>
+                    <p><label for="iemail">email</label>
+                        <input type="email" name="nome" id="iemail">
+                    </p>
+                <p><label for="isenha">senha:</label>
+                <input type="password" name="nome" id="isenha">
+                </p>
+                <input type="submit" value="aceitar">
+                <!--BOTAO DE OPÇÃO IMPUT(RADIO), SO PERMITE MARCAR UMA OPÇÃO
+                EX-->
+                <P>cor favorita</P>
+                <input type="radio" name="vermelho" id="ivermelho">
+                <label for="ivermelho">Vermelho</label>
+                <input type="radio" name="azul" id="iazul">
+               <label for="iazul">azul</label>
+                <p>
+                    <input type="checkbox" name="" id="">
+                        <select name="" id="">
+                            <option value="SP">São Paulo</option>
+                            <option value="SC">Santa catarina</option>
+                        <
+
+
+
+                </p>
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
