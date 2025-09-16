@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+p{color: rgb(255, 252, 253);}
+
+p { text-align:right; 
+background-color: rgb(148, 182, 255);
+}
+h1 { color:#4c7fdf;
+font-size:40px;
+text-aling:center;}
+
+#text_centralizado{text-align: center; color: rgb(253, 241, 130);}
+
+#text{text-align: center;} 
+
+.grupo{
+
+        text-align:left;
+        color: rgb(86, 95, 224);
+     border-radius: 10px solid ;
+     margin:50px;
+     padding:30px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+}
