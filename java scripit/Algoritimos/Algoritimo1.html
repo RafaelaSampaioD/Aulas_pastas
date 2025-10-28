@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALGORITIMOS1</title>
+</head>
+<body>
+    <header>
+<a href="pagina_03.html">Algoritimo2</a>
+<a href="pagina_04.html">Algoritimo3</a>
+<a href="pagina_04.html">Algoritimo4</a>
+<a href="pagina_05.html">Algoritimo5</a>
+    </header>
+
+    <h1>ALGORITIMO 01</h1>
+    <P>1.Solicitamos o preço de produto ao usuário;</P>
+    <p>2.Acrescentamos 15% de desconto ao valor aplicado;</p>
+    <p>retornamos o valor  fina em reais para o usuário</p>
+    <script>
+        alert("Salut ao nosso mercado! Antes de suas compras precisamos das informações que nescessita")
+        //solicite o preço de um produto ao usuário//
+        let Preco_do_produto =  Number(prompt("Qual o preço do produto solicitado?"));
+
+        //acrescente 15% de desconto no preço do valor aplicado e; No conastante o nome do codigo não pode ser mudado porque é um nome contante conforme o resultado//
+        const desconto =Preco_do_produto * 0.15
+
+        const preço_com_desconto = Preco_do_produto - desconto;
+        //retorne o valor final em reais para o usuário//
+
+        alert(`o preço do seu produto com desconto de 15% é de R$${preço_com_desconto}!`)
+
+    </script>
+</body>
+</html>
